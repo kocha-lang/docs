@@ -15,22 +15,19 @@ hero:
       icon: external
       variant: minimal
 ---
+import { Tabs, TabItem, Code, Icon } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
 
-import { CardGrid } from '@astrojs/starlight/components';
-import { Code } from '@astrojs/starlight/components';
-import { Icon } from '@astrojs/starlight/components';
-import { Tabs, TabItem } from '@astrojs/starlight/components';
-
+import localTower from "../../assets/11.png";
 import conditions from '/src/assets/examples/conditions.kocha?raw';
 import fib from '/src/assets/examples/fib.kocha?raw';
 import object from '/src/assets/examples/object.kocha?raw';
 
 export const highlights = ['file', 'CMS'];
 
-
 <section class="flex justify-between items-center flex-col md:flex-row gap-3">
   <div>
-    <div class="text-2xl md:text-7xl">Yangicha qarash</div>
+    <p class="text-4xl md:text-7xl">Yangicha qarash</p>
   </div>
 
   <div class="lg:w-2/4">
@@ -49,3 +46,15 @@ export const highlights = ['file', 'CMS'];
     </Tabs>
   </div>
 </section>
+
+<section class="flex md:justify-around justify-between items-center gap-3">
+  <Image src={localTower} alt="tower_img" class="w-3/5 md:w-1/5" />
+  <div>
+    <p class="text-5xl md:text-8xl">O'zimiz uchun</p>
+    <i>- Moshinaga proshivka yozsa boladimi?</i>
+  </div>
+</section>
+
+{/* <section>
+  <p class="text-6xl">Kim qildi buni?</p>
+</section> */}
