@@ -1,0 +1,13 @@
+xullas a = 5;
+xullas b = 4;
+
+agar(a > b){
+ korsat("A katta");
+}
+yemasa(a < b){
+  korsat("B katta");
+}
+
+oxiri{
+  korsat("Teng");
+}

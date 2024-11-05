@@ -1,0 +1,13 @@
+jovob odam = {
+  ism: "Afandi",
+  parol: "iloveuzb"
+  yosh: 28,
+}
+
+# user input
+xullas ism = gapir("Ismizni kiriting: ");
+xullas parol = gapir("Parol: ");
+
+agar(odam.parol == parol){
+  korsat("Xush kelibsiz");
+}
