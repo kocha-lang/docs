@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Birinchi o‘zbek ko‘cha tilidan ilhomlangan dasturlash tili
   image:
-    file: ../../assets/2.png
+    file: ../../assets/22.png
   actions:
     - text: Yozaman!
       link: /guides/example/
@@ -15,10 +15,11 @@ hero:
       icon: external
       variant: minimal
 ---
-import { Tabs, TabItem, Code, Icon } from '@astrojs/starlight/components';
+import { Tabs, TabItem, Code, Icon, CardGrid } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
+import Notion from "../../components/Notion.astro";
 
-import localTower from "../../assets/11.png";
+import localTower from "../../assets/11.webp";
 import conditions from '/src/assets/examples/conditions.kocha?raw';
 import fib from '/src/assets/examples/fib.kocha?raw';
 import object from '/src/assets/examples/object.kocha?raw';
@@ -51,10 +52,38 @@ export const highlights = ['file', 'CMS'];
   <Image src={localTower} alt="tower_img" class="w-3/5 md:w-1/5" />
   <div>
     <p class="text-5xl md:text-8xl">O'zimiz uchun</p>
-    <i>- Moshinaga proshivka yozsa boladimi?</i>
+    <i>- Moshinaga proshivka yozsa bo'ladimi?</i>
   </div>
 </section>
 
-{/* <section>
-  <p class="text-6xl">Kim qildi buni?</p>
-</section> */}
+
+<section class="flex flex-col gap-8">
+  <p class="pt-10 text-3xl md:text-4xl text-center">Odamalar nima deydi?</p>
+  <CardGrid>
+    <Notion 
+      avatarUrl='https://avatars.githubusercontent.com/u/98583394?v=4'
+      nickname="Bobomurod"
+      message="Kocha lang - katta xazil"
+      socialLink='https://bobomurod.uz'
+    />
+
+    <Notion 
+      avatarUrl='https://avatars.githubusercontent.com/u/97128346?v=4'
+      nickname="fromgodd"
+      message="WE WRITE PROSHIVKA TO GENTRA 1.5 ATMOSFERNIY WITH THIS ONE 🗣🗣🗣"
+      socialLink='https://github.com/fromgodd'
+    />
+    {/* <Notion 
+      avatarUrl='https://avatars.githubusercontent.com/u/98583394?v=4'
+      nickname="Bobomurod"
+      message="Kocha lang - katta xazil"
+      socialLink='https://bobomurod.uz'
+    />
+    <Notion 
+      avatarUrl='https://avatars.githubusercontent.com/u/98583394?v=4'
+      nickname="Bobomurod"
+      message="Kocha lang - katta xazil"
+      socialLink='https://bobomurod.uz'
+    /> */}
+  </CardGrid>
+</section>
