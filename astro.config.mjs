@@ -22,24 +22,43 @@ export default defineConfig({
     },
         },
         social: {
-            github: 'https://github.com/mmnvb/kocha',
+            github: 'https://github.com/kocha-lang/kocha',
         },
         sidebar: [
             {
-                label: 'Guides',
+                label: 'Boshlash',
                 items: [
-                    // Each item here is one entry in the navigation menu.
-                    { label: 'Example Guide', slug: 'guides/example' },
+                    { label: 'Salom dunyo', slug: 'start/install' },
+                    { label: "VSCode qo'shimchasi", slug: 'start/extension' },
                 ],
             },
             {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
+                label: 'Syntax',
+                items: [
+                    { label: 'Variables', slug: 'syntax/variables' },
+                    { label: 'Conditions', slug: 'syntax/conditions' },
+                    { label: 'Loops', slug: 'syntax/loops' },
+                    { label: 'Array va Object', slug: 'syntax/collections' },
+                    { label: 'Functions', slug: 'syntax/functions' },
+                ],
+            },
+            {
+                label: 'Standard Lib',
+                items: [
+                    { label: 'I/O', slug: 'std/io' },
+                    { label: 'Math', slug: 'std/math' },
+                ],
+            },
+            {
+                label: 'Credits',
+                items: [
+                    { label: 'Thank you', slug: 'credits/thanks' },
+                ],
             },
         ],
         components: {
             Hero: './src/components/Hero.astro',
-            Footer: './src/components/Footer.astro',
+            // Footer: './src/components/Footer.astro',
         }
 		}), tailwind()],
 });

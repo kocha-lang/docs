@@ -1,5 +1,5 @@
 ---
-title: Example Guide
+title: VSCode extension
 description: A guide in my new Starlight docs site.
 ---
 
