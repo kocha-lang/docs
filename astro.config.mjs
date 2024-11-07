@@ -50,9 +50,13 @@ export default defineConfig({
                 ],
             },
             {
-                label: 'Credits',
+                label: 'Misollar',
+                autogenerate: { directory: "examples" }
+            },
+            {
+                label: 'Oxiri',
                 items: [
-                    { label: 'Thank you', slug: 'credits/thanks' },
+                    { label: 'Credits', slug: 'misc/credits' },
                 ],
             },
         ],
