@@ -29,7 +29,7 @@ export default defineConfig({
                 label: 'Boshlash',
                 items: [
                     { label: 'Salom dunyo', slug: 'start/install' },
-                    { label: "VSCode qo'shimchasi", slug: 'start/extension' },
+                    { label: "Qulay ishlash", slug: 'start/extension' },
                 ],
             },
             {
