@@ -1,0 +1,11 @@
+xullas yosh = 20;
+
+agar(a > 18){
+  korsat("Mumkin");
+}
+yemasa(a > 12){
+  korsat("Ozgina bor");
+}
+oxiri{
+  korsat("Kichkinasanu ukam");
+}

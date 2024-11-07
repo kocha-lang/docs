@@ -1,0 +1,10 @@
+xullas ism = "Admin";
+xullas parol = "777";
+
+agar(ism == "Admin" va parol == "777"){
+  korsat("Xush kelibsiz");
+}
+
+agar(parol == "123" yoki parol == "1234567"){
+  korsat("parol juda sodda! o'zgartiring");
+}

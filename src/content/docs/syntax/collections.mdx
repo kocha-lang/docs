@@ -1,0 +1,37 @@
+---
+title: Arraylar va Obyektlar
+description: Ko'cha tilidagi array va object tog'risida gaplashamiz
+---
+import { Aside, Code, TabItem, Tabs } from '@astrojs/starlight/components';
+
+import kochaCode from '../../../assets/examples/array.kocha?raw';
+import jsCode from '../../../assets/examples/array.js?raw';
+import okochaCode from '../../../assets/examples/objects.kocha?raw';
+import ojsCode from '../../../assets/examples/objects.js?raw';
+
+<Aside type="caution" title="Diqqat">
+  Hozirgi vaqtda bu ma’lumot turlari beqaror ishlaydi va ko‘plab cheklovlarga ega.
+</Aside>
+
+
+### Array
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={kochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={jsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>
+
+
+### Obyekt
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={okochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={ojsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>
+

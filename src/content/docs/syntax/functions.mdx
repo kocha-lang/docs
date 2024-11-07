@@ -1,0 +1,22 @@
+---
+title: Funksiyalar
+description: Qayta ishlatish mumkin bolgan kod qisimlari, ya'ni funksiyalar tog'risida.
+---
+import { Code, Tabs, TabItem } from '@astrojs/starlight/components';
+
+import kochaCode from '../../../assets/examples/functions.kocha?raw';
+import jsCode from '../../../assets/examples/functions.js?raw';
+
+
+Bizga bir kod qismini bir necha marta ishlatish kerak bo'lganda, funksiyalardan foydalanishimiz mumkin.
+Kocha'da funksiyalar `tema` so'zi yordamida yaratiladi. Ularning sintaksisi JavaScript funksiyalariga o'xshash.
+Funksiyadan ma'lumotni qaytarish uchun `qaytar` so'zidan foydalanamiz.
+
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={kochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={jsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>

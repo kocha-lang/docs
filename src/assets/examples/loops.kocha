@@ -1,0 +1,6 @@
+xullas i = 0;
+
+aylan(a == 10){
+  korsat("SALOM", i);
+  i = i + 1;
+}

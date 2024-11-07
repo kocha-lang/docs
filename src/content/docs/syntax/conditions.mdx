@@ -1,0 +1,26 @@
+---
+title: Shartlar
+description: agar, yemasa va oxiri haqida gaplahsamiz.
+---
+import { Code, Tabs, TabItem } from '@astrojs/starlight/components';
+
+import kochaCode from '../../../assets/examples/condition.kocha?raw';
+import jsCode from '../../../assets/examples/condition.js?raw';
+import logicCode from '../../../assets/examples/logic.kocha?raw';
+
+Qachonki dastruda nimadirning natijasiga qarab yo'l tutmoqchi bolsak. 
+Bizga shart operatorlari kerak bo'ladi.
+
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={kochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={jsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>
+
+### Logika operatorlari
+<Code code={logicCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+
+Kocha lang-da `va` va `yoki` operatorlari mavjud. 

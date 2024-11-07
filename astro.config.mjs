@@ -35,11 +35,11 @@ export default defineConfig({
             {
                 label: 'Syntax',
                 items: [
-                    { label: 'Variables', slug: 'syntax/variables' },
-                    { label: 'Conditions', slug: 'syntax/conditions' },
-                    { label: 'Loops', slug: 'syntax/loops' },
+                    { label: "O'zgaruvchilar", slug: 'syntax/variables' },
+                    { label: 'Shartlar', slug: 'syntax/conditions' },
+                    { label: 'Aylanmalar', slug: 'syntax/loops' },
                     { label: 'Array va Object', slug: 'syntax/collections' },
-                    { label: 'Functions', slug: 'syntax/functions' },
+                    { label: 'Funksiyalar', slug: 'syntax/functions' },
                 ],
             },
             {

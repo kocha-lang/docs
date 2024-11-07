@@ -1,0 +1,33 @@
+---
+title: Aylanmalar
+description: Looplar tog'risida gaplashamiz.
+---
+import { Code, Tabs, TabItem } from '@astrojs/starlight/components';
+
+import kochaCode from '../../../assets/examples/loops.kocha?raw';
+import jsCode from '../../../assets/examples/loops.js?raw';
+
+Ba'zan bizga biror amalni bir necha marta bajarish imkoniyati kerak bo‘ladi.
+Bunday hollarda dasturlash tillarida `while loop` dan foydalanamiz. 
+Bu yerda `while loop` `aylan` deb nomlanadi. Kocha lang tilida hozircha `for` sikli yo‘q,
+chunki while sikli yetarli.
+
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={kochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={jsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>
+
+Natija
+```
+SALOM 0
+SALOM 1
+SALOM 2
+...
+SALOM 9
+```
+
+Bu erda ham `yoki`, `va` operatorlari ishlaydi. 

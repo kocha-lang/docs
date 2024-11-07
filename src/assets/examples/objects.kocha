@@ -1,0 +1,12 @@
+xullas odam = {
+  x: 23,
+  y: 352,
+  ism: "Davron",
+  dostlar: {
+    soni: 10
+  }
+}
+
+korsat(odam.ism); # "Davron"
+korsat(odam["x"]); # 23
+korsat(odam.dostlar.soni); # 10 

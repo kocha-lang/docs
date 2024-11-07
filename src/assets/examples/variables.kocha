@@ -1,0 +1,9 @@
+# o'zgartisa bo'ladigan
+xullas a = 5;
+xullas b endi 10;
+a = 7; # a endi 7 bo'ldi 
+
+# contantalar
+jovob ism = "Oybek";
+jovob familiya endi "M";
+# ism = "Anvar" qilish mumkin emas chunki `jovob` bergansiz :)

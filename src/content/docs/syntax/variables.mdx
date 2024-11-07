@@ -1,0 +1,22 @@
+---
+title: O'zgaruvchilar
+description: Kocha Lang ni o'zgaruvchilari tog'risida
+---
+import { Code, Tabs, TabItem } from '@astrojs/starlight/components';
+
+import kochaCode from '../../../assets/examples/variables.kocha?raw';
+import jsCode from '../../../assets/examples/variables.js?raw';
+
+> Ko'p gap eshakga yuk!
+
+Qandaydir ma'lumotni dasturimizda saqlash uchun bizga o'zgaruvchilar, ya'ni `variables`
+kerak bo'ladi.
+
+<Tabs>
+  <TabItem label="Kocha">
+    <Code code={kochaCode} lang="Kocha Tili" mark={['file', 'CMS']} />
+  </TabItem>
+  <TabItem label="JavaScript">
+    <Code code={jsCode} lang="js" mark={['file', 'CMS']} />
+  </TabItem>
+</Tabs>
