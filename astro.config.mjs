@@ -9,6 +9,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     integrations: [starlight({
         title: 'Kocha Lang',
+        favicon: '/icon.png',
         customCss:[
             './src/assets/styles/custom.css'
         ],
