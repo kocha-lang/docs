@@ -1,0 +1,22 @@
+---
+title: Input Output
+description: Standard kirish oqimi va standard chiqish oqimi bilan ishlash.
+---
+import { Code } from '@astrojs/starlight/components';
+
+Dasturlar foydalanuvchidan ma’lumot qabul qilish va nimanidir konsolda ko‘rsatishga muhtoj bolishi mumkin.
+Kocha da buning uchun standart funksiyalar mavjud.
+
+export const korsat = `
+korsat(a);
+korsat("salom", a);
+`
+
+export const gapir = `xullas ism = gapir("Ismingiz nima: ");`
+
+### korsat()
+<Code code={korsat} lang="Kocha Tili" mark={['file', 'CMS']} />
+
+
+### gapir()
+<Code code={gapir} lang="Kocha Tili" mark={['file', 'CMS']} />

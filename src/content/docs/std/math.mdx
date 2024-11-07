@@ -1,0 +1,33 @@
+---
+title: Math
+description: Ko'cha dastrulash tilida sonlar bilan ishlash
+---
+import { Code } from '@astrojs/starlight/components';
+
+Kocha'da sonlar bilan ishlash jarayonini qulay qilish uchun tilning ichida bir
+qator standard funksiyalar mavjud.
+
+export const son = `
+# Stringni son qilish
+xullas a = "45";
+korsat(son(a) + 5); # 50
+`
+
+export const shara = `
+# tasodifiy raqam (Random)
+xullas raqam = shara(1, 6); # 1 dan 6 gacha
+`
+
+export const kelishtir = `
+# raqamni yaxlitlash Math.round()
+xullas raqam = kelishtir(100 / 3); # 33
+`
+
+### son()
+<Code code={son} lang="Kocha Tili" mark={['file', 'CMS']} />
+
+### shara()
+<Code code={shara} lang="Kocha Tili" mark={['file', 'CMS']} />
+
+### kelishtir()
+<Code code={kelishtir} lang="Kocha Tili" mark={['file', 'CMS']} />
