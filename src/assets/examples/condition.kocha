@@ -1,9 +1,9 @@
 xullas yosh = 20;
 
-agar(a > 18){
+agar(yosh > 18){
   korsat("Mumkin");
 }
-yemasa(a > 12){
+yemasa(yosh > 12){
   korsat("Ozgina bor");
 }
 oxiri{

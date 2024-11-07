@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { Props } from '@astrojs/starlight/props';
-import { LinkButton } from '@astrojs/starlight/components';
+import { LinkButton, Icon } from '@astrojs/starlight/components';
 
 const { data } = Astro.props.entry;
 const { title = data.title, tagline, image, actions = [] } = data.hero || {};
@@ -31,7 +31,7 @@ if (image) {
 ---
 
 <div class="h-svh md:h-auto">
-	<div class="hero h-3/4 md:h-auto ">
+	<div class="hero h-3/4 md:h-auto">
 		{
 			darkImage && (
 				<Image
@@ -64,6 +64,10 @@ if (image) {
 			}
 		</div>
 	</div>
+	<Icon 
+		name="down-caret" 
+		class="md:hidden icon text-center w-full text-5xl motion-safe:animate-bounce text-[var(--sl-color-gray-3)]" 
+	/>
 </div>
 
 <style>
@@ -151,5 +155,10 @@ if (image) {
 		.actions {
 			justify-content: flex-start;
 		}
+	}
+
+	.icon{
+		animation-duration: 3s;
+		opacity: 10%;
 	}
 </style>

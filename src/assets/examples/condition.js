@@ -1,9 +1,9 @@
 let yosh = 20;
 
-if(a > 18){
+if(yosh > 18){
   console.log("Mumkin");
 }
-else if(a > 12){
+else if(yosh > 12){
   console.log("Ozgina bor");
 }
 else{
