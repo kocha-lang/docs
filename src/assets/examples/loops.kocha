@@ -1,6 +1,6 @@
 xullas i = 0;
 
-aylan(i == 10){
+aylan(i < 10){
   korsat("SALOM", i);
   i = i + 1;
 }
