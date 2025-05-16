@@ -1,6 +1,6 @@
 xullas arr = [1, 2, 3];
 
-arr.qosh(5); # qoshadi -> [1,2,3,5]
+arr.qosh(5); # qo'shadi -> [1,2,3,5]
 arr.sur(); # birinchi elementni o'chiradi -> [2,3,5]
 arr.chop(); # oxirgi elementni o'chiradi -> [2,3]
 

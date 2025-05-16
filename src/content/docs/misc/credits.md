@@ -1,6 +1,6 @@
 ---
 title: Credits
-description: Katta raxmat hammaga!
+description: Katta rahmat hammaga!
 ---
 
 [Men](https://bobomurod.uz) bu loyihani dasturlash bosqichida meni qo‘llab-quvvatlagan va o'z g'oyalarini taklif
@@ -14,4 +14,4 @@ boshqa ishlarning mualliflarini ham eslatib o'tmoqchiman.
 - [Deno](https://deno.com/) - awesome TypeScript runtime
 
 ---
-**Etibor uchun raxmat!**
+**Etibor uchun rahmat!**
