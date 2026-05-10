@@ -10,12 +10,13 @@ hero:
     - text: Yozaman!
       link: /start/install/
       icon: right-arrow
-    - text: Github
-      link: https://github.com/mmnvb/kocha
+    - text: O'yingoh
+      link: https://play.kocha-lang.uz
       icon: external
-      variant: minimal
+      variant: secondary
+
 ---
-import { Tabs, TabItem, Code, Icon, CardGrid } from '@astrojs/starlight/components';
+import { Tabs, TabItem, Code, Icon, CardGrid, Card } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
 import Notion from "../../components/Notion.astro";
 
@@ -58,38 +59,20 @@ export const highlights = ['file', 'CMS'];
 
 
 <section class="flex flex-col gap-8">
-  <p class="pt-10 text-3xl md:text-4xl text-center">Odamlar nima deydi?</p>
+  <p class="pt-10 text-3xl md:text-4xl text-center">Sinab koring!</p>
+
   <CardGrid>
-    <Notion
-      avatarUrl='https://avatars.githubusercontent.com/u/98583394?v=4'
-      nickname="Bobomurod"
-      message="Erinmaganlar..."
-      socialLink='https://bobomurod.uz'
-    />
+        <Card title="Brauzerda o'yingoh" icon="rocket">
+            <a href="https://play.kocha-lang.uz">
+                Brauzerda Kocha Tilini sinab koring
+            </a>
+        </Card>
 
-    <Notion
-      avatarUrl='https://avatars.githubusercontent.com/u/97128346?v=4'
-      nickname="fromgodd"
-      message="WE WRITE PROSHIVKA TO GENTRA 1.5 ATMOSFERNIY WITH THIS ONE 🗣🗣🗣"
-      socialLink='https://github.com/fromgodd'
-    />
-
-    <Notion
-      avatarUrl='https://avatars.githubusercontent.com/u/8468876?v=4'
-      nickname="fredwared"
-      message="'yemasa()'
-            Вот тут я выпал 🤣
-            Молодец. Поставлю ⭐️
-      "
-      socialLink='https://github.com/Fredwared'
-    />
-
-    <Notion
-      avatarUrl='https://avatars.githubusercontent.com/u/141041183?v=4'
-      nickname="khurozov"
-      message="lagmon, shara, kelishtir, aylan, qarama, tema, endi, jovob🤣🤣🤣"
-      socialLink='https://khurozov.uz/'
-    />
-
+        <Card title="Yuklab oling" icon="laptop">
+            <a href="https://github.com/kocha-lang/kocha/releases">
+                Kocha tilini `.exe` file yordamida ishlating
+            </a>
+        </Card>
   </CardGrid>
+
 </section>
