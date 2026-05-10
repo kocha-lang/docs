@@ -1,13 +1,13 @@
-jovob odam = {
-  ism: "Afandi",
-  parol: "iloveuzb"
-  yosh: 28,
+# juftmi yoki toq
+# Bilib olamiz
+tema juftmi(son){
+  agar (son % 2 == 0) {
+    qaytar "Juft!";
+  }
+
+  qaytar "Toq!";
 }
 
-# user input
-xullas ism = gapir("Ismizni kiriting: ");
-xullas parol = gapir("Parol: ");
+xullas berilgan = son(gapir("Son kiriting: "));
 
-agar(odam.parol == parol){
-  korsat("Xush kelibsiz");
-}
+korsat(juftmi(berilgan));
